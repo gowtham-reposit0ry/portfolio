@@ -1,0 +1,14 @@
+footer {
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .btn {
+    margin: 5px; /* Adjust as needed */
+    /* Add your styling for the buttons */
+}
