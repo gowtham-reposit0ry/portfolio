@@ -1,14 +1,47 @@
+
 footer {
     text-align: center;
+    padding: 20px;
+    bottom: 0%;
 }
 
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contact-btn {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #0a0a0ab9;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    width: 15%;
 }
 
-footer .btn {
-    margin: 5px; /* Adjust as needed */
-    /* Add your styling for the buttons */
+.contact-btn img {
+    width:80%; 
+    height: 80%;
+}
+
+.contact-btn:hover {
+    background-color: #222121;
+    color: #000;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.skills-img {
+    width: 50px;
+    height: 50px;
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+}
+
+footer p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:normal;
+}
+.contact-btn:hover  {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
