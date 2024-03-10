@@ -49,3 +49,8 @@
     transform: scale(1.05);
     filter: brightness(1);
 }
+#skills .container{
+    background: inherit;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}

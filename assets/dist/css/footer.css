@@ -3,6 +3,8 @@ footer {
     text-align: center;
     padding: 20px;
     bottom: 0%;
+    position: static;
+    width: 100%;
 }
 
 .contact-btn {
