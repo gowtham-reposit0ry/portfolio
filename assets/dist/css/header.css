@@ -64,7 +64,7 @@ animation-play-state: paused;
     }
 }
 .logo:first-child{
-color: red;
+color: #ff004f;
 }
 /*edit this code for better*/
 nav ul li a::after{
@@ -130,7 +130,7 @@ nav ul li a::after{
     
     .profile h1 {
         position: relative;
-        user-select: none;
+        
         transition: transform 0.5s ease-in-out;
     }
     

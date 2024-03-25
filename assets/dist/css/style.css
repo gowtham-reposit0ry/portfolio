@@ -12,6 +12,17 @@ html, body {
     left: 0;
     right: 0;
     bottom: 0;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    text-align: match-parent;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    overflow-anchor: none;
+    text-decoration-skip-ink: auto;
+    
 }
 
 .btn {
